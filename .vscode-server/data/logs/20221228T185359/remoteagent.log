@@ -1,0 +1,23 @@
+2022-12-28 18:53:59.386 [info] Extension host agent started.
+2022-12-28 18:53:59.937 [info] [127.0.0.1][b85bf574][ExtensionHostConnection] New connection established.
+2022-12-28 18:53:59.940 [info] Deleted from disk ms-ceintl.vscode-language-pack-ko /home/team11/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.74.12070924
+2022-12-28 18:53:59.988 [info] [127.0.0.1][56b20e6c][ManagementConnection] New connection established.
+2022-12-28 18:53:59.998 [info] [127.0.0.1][b85bf574][ExtensionHostConnection] <26785> Launched Extension Host Process.
+2022-12-28 18:54:04.720 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/team11/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-28 19:30:29.363 [info] [127.0.0.1][56b20e6c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-28 19:30:29.388 [info] [127.0.0.1][b85bf574][ExtensionHostConnection] <26785> Extension Host Process exited with code: 0, signal: null.
+2022-12-28 19:30:29.388 [info] Last EH closed, waiting before shutting down
+2022-12-28 19:35:29.390 [info] Last EH closed, shutting down

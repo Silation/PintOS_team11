@@ -1,0 +1,106 @@
+2022-12-14 18:48:59.729 [info] 로그 수준: Info
+2022-12-14 18:48:59.729 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2022-12-14 18:48:59.729 [info] "2.7.4"에서 git "git"을(를) 사용하는 중
+2022-12-14 18:48:59.729 [info] > git rev-parse --show-toplevel [5ms]
+2022-12-14 18:48:59.729 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.729 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-14 18:48:59.729 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-12-14 18:48:59.729 [info] Open repository: /home/team11/pintos
+2022-12-14 18:48:59.729 [info] > git rev-parse --show-toplevel [5ms]
+2022-12-14 18:48:59.729 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.729 [info] > git config --get commit.template [5ms]
+2022-12-14 18:48:59.729 [info] > git rev-parse --show-toplevel [10ms]
+2022-12-14 18:48:59.730 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [10ms]
+2022-12-14 18:48:59.730 [info] > git status -z -uall [6ms]
+2022-12-14 18:48:59.730 [info] > git rev-parse --show-toplevel [13ms]
+2022-12-14 18:48:59.730 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.730 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2022-12-14 18:48:59.730 [info] > git rev-parse --show-toplevel [15ms]
+2022-12-14 18:48:59.730 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.730 [info] > git config --get commit.template [5ms]
+2022-12-14 18:48:59.730 [info] > git rev-parse --show-toplevel [10ms]
+2022-12-14 18:48:59.730 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [9ms]
+2022-12-14 18:48:59.730 [info] > git status -z -uall [5ms]
+2022-12-14 18:48:59.730 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2022-12-14 18:48:59.730 [info] > git rev-parse --show-toplevel [3ms]
+2022-12-14 18:48:59.730 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.730 [info] > git rev-parse --show-toplevel [4ms]
+2022-12-14 18:48:59.730 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.730 [info] > git rev-parse --show-toplevel [72ms]
+2022-12-14 18:48:59.730 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-14 18:48:59.809 [info] > git check-ignore -v -z --stdin [3ms]
+2022-12-14 18:48:59.853 [info] > git show --textconv :src/userprog/exception.c [8ms]
+2022-12-14 18:48:59.855 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/exception.c [2ms]
+2022-12-14 18:48:59.862 [info] > git cat-file -s 773628ed473f01e275116eed5abfd52ddff6e1fd [1ms]
+2022-12-14 18:49:00.750 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/exception.c [2ms]
+2022-12-14 18:49:00.757 [info] > git cat-file -s 773628ed473f01e275116eed5abfd52ddff6e1fd [2ms]
+2022-12-14 18:49:00.782 [info] > git show --textconv :src/userprog/exception.c [3ms]
+2022-12-14 18:49:01.338 [info] > git fetch [2112ms]
+2022-12-14 18:49:01.338 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: HTTP Basic: Access denied. The provided password or token is incorrect or your account has 2FA enabled and you must use a personal access token instead of a password. See https://gitlab.com/help/topics/git/troubleshooting_git#error-on-git-fetch-http-basic-access-denied
+fatal: Authentication failed for 'https://gitlab.com/2022-2-operating-systme/team6.git/'
+2022-12-14 18:49:19.701 [info] > git config --get commit.template [7ms]
+2022-12-14 18:49:19.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-14 18:49:19.716 [info] > git status -z -uall [8ms]
+2022-12-14 18:49:19.717 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2022-12-14 18:49:19.816 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/exception.c [2ms]
+2022-12-14 18:49:19.837 [info] > git cat-file -s 773628ed473f01e275116eed5abfd52ddff6e1fd [16ms]
+2022-12-14 18:49:19.883 [info] > git show --textconv :src/userprog/exception.c [3ms]
+2022-12-14 18:49:35.487 [info] > git config --get commit.template [8ms]
+2022-12-14 18:49:35.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [3ms]
+2022-12-14 18:49:35.501 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2022-12-14 18:49:35.502 [info] > git status -z -uall [9ms]
+2022-12-14 18:49:35.599 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/exception.c [2ms]
+2022-12-14 18:49:35.617 [info] > git cat-file -s 773628ed473f01e275116eed5abfd52ddff6e1fd [13ms]
+2022-12-14 18:49:35.652 [info] > git show --textconv :src/userprog/exception.c [3ms]
+2022-12-14 18:50:02.993 [info] > git config --get commit.template [7ms]
+2022-12-14 18:50:02.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-14 18:50:03.005 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-14 18:50:03.008 [info] > git status -z -uall [8ms]
+2022-12-14 18:50:10.385 [info] > git check-ignore -v -z --stdin [6ms]
+2022-12-14 18:51:12.517 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-14 18:51:13.817 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-14 18:51:28.413 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-14 18:51:30.894 [info] > git show --textconv :src/vm/page.c [8ms]
+2022-12-14 18:51:30.897 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/page.c [3ms]
+2022-12-14 18:51:30.904 [info] > git cat-file -s d629616b16579a0426dc63d8d93b9ec4556f0ae2 [2ms]
+2022-12-14 18:51:48.203 [info] > git show --textconv :src/vm/page.h [8ms]
+2022-12-14 18:51:48.205 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/page.h [3ms]
+2022-12-14 18:51:48.213 [info] > git cat-file -s a1803348613cdcd1ca92e85ccc10bddbcbb4ced6 [2ms]
+2022-12-14 18:51:49.360 [info] > git show --textconv :src/vm/swap.c [8ms]
+2022-12-14 18:51:49.361 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/swap.c [2ms]
+2022-12-14 18:51:49.367 [info] > git cat-file -s 5d8c247522dbed8e33cc0f8b87fa4f0ff4235dd8 [1ms]
+2022-12-14 18:51:53.115 [info] > git show --textconv :src/vm/swap.h [7ms]
+2022-12-14 18:51:53.117 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/swap.h [2ms]
+2022-12-14 18:51:53.122 [info] > git cat-file -s 76864a1d35fc66ba556b2e7e1d1083833a3d9ae3 [2ms]
+2022-12-14 18:51:55.225 [info] > git show --textconv :src/vm/swap.c [6ms]
+2022-12-14 18:51:55.227 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/swap.c [3ms]
+2022-12-14 18:51:55.233 [info] > git cat-file -s 5d8c247522dbed8e33cc0f8b87fa4f0ff4235dd8 [2ms]
+2022-12-14 18:52:56.446 [info] > git check-ignore -v -z --stdin [3ms]
+2022-12-14 18:53:07.566 [info] > git show --textconv :src/vm/swap.h [7ms]
+2022-12-14 18:53:07.567 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/swap.h [2ms]
+2022-12-14 18:53:07.574 [info] > git cat-file -s 76864a1d35fc66ba556b2e7e1d1083833a3d9ae3 [2ms]
+2022-12-14 18:53:12.889 [info] > git show --textconv :src/userprog/syscall.c [8ms]
+2022-12-14 18:53:12.889 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/syscall.c [2ms]
+2022-12-14 18:53:12.896 [info] > git cat-file -s 958fbb9bad99e7f50359a83d8a073ecf36e92ad5 [2ms]
+2022-12-14 18:54:39.489 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-14 18:54:44.700 [info] > git show --textconv :src/vm/page.c [8ms]
+2022-12-14 18:54:44.702 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/page.c [2ms]
+2022-12-14 18:54:44.710 [info] > git cat-file -s d629616b16579a0426dc63d8d93b9ec4556f0ae2 [1ms]
+2022-12-14 18:54:49.595 [info] > git show --textconv :src/userprog/syscall.c [8ms]
+2022-12-14 18:54:49.597 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/syscall.c [2ms]
+2022-12-14 18:54:49.602 [info] > git cat-file -s 958fbb9bad99e7f50359a83d8a073ecf36e92ad5 [1ms]

@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "python.defaultInterpreterPath": "c:\\Program Files\\Python37\\python.exe",
+    "remote.SSH.configFile": "C:\\Users\\박현빈\\.ssh\\config",
+    "remote.SSH.remotePlatform": {
+        "141.223.181.67": "linux",
+        "team11": "linux"
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "window.zoomLevel": 1
+}

@@ -1,0 +1,65 @@
+2022-12-13 17:02:53.644 [info] 로그 수준: Info
+2022-12-13 17:02:53.644 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2022-12-13 17:02:53.644 [info] "2.7.4"에서 git "git"을(를) 사용하는 중
+2022-12-13 17:02:53.644 [info] > git rev-parse --show-toplevel [29ms]
+2022-12-13 17:02:53.644 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.644 [info] > git rev-parse --show-toplevel [22ms]
+2022-12-13 17:02:53.644 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2022-12-13 17:02:53.644 [info] Open repository: /home/team11/pintos
+2022-12-13 17:02:53.644 [info] > git rev-parse --show-toplevel [6ms]
+2022-12-13 17:02:53.644 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.644 [info] > git config --get commit.template [5ms]
+2022-12-13 17:02:53.644 [info] > git rev-parse --show-toplevel [10ms]
+2022-12-13 17:02:53.644 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.644 [info] > git rev-parse --show-toplevel [2ms]
+2022-12-13 17:02:53.644 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.644 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-13 17:02:53.644 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.644 [info] > git rev-parse --show-toplevel [2ms]
+2022-12-13 17:02:53.644 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.644 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [83ms]
+2022-12-13 17:02:53.645 [info] > git status -z -uall [85ms]
+2022-12-13 17:02:53.645 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [111ms]
+2022-12-13 17:02:53.645 [info] > git config --get commit.template [5ms]
+2022-12-13 17:02:53.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-13 17:02:53.645 [info] > git status -z -uall [5ms]
+2022-12-13 17:02:53.645 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-13 17:02:53.645 [info] > git check-ignore -v -z --stdin [4ms]
+2022-12-13 17:02:53.645 [info] > git show --textconv :src/vm/page.h [117ms]
+2022-12-13 17:02:53.645 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/page.h [110ms]
+2022-12-13 17:02:53.645 [info] > git cat-file -s a1803348613cdcd1ca92e85ccc10bddbcbb4ced6 [3ms]
+2022-12-13 17:02:53.645 [info] > git fetch [1682ms]
+2022-12-13 17:02:53.645 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: HTTP Basic: Access denied. The provided password or token is incorrect or your account has 2FA enabled and you must use a personal access token instead of a password. See https://gitlab.com/help/topics/git/troubleshooting_git#error-on-git-fetch-http-basic-access-denied
+fatal: Authentication failed for 'https://gitlab.com/2022-2-operating-systme/team6.git/'
+2022-12-13 17:02:53.883 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-13 17:02:53.883 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.957 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-13 17:02:53.958 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.973 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-13 17:02:53.973 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.983 [info] > git rev-parse --show-toplevel [5ms]
+2022-12-13 17:02:53.983 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:53.990 [info] > git rev-parse --show-toplevel [2ms]
+2022-12-13 17:02:53.990 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-13 17:02:54.002 [info] > git ls-files --stage -- /home/team11/pintos/src/vm/page.h [4ms]
+2022-12-13 17:02:54.009 [info] > git cat-file -s a1803348613cdcd1ca92e85ccc10bddbcbb4ced6 [1ms]
+2022-12-13 17:02:54.189 [info] > git show --textconv :src/vm/page.h [3ms]
+2022-12-13 17:02:58.047 [info] > git check-ignore -v -z --stdin [3ms]
+2022-12-13 17:02:59.608 [info] > git show --textconv :src/userprog/exception.c [8ms]
+2022-12-13 17:02:59.610 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/exception.c [2ms]
+2022-12-13 17:02:59.615 [info] > git cat-file -s 773628ed473f01e275116eed5abfd52ddff6e1fd [1ms]
