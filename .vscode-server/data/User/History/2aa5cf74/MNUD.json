@@ -1,0 +1,25 @@
+{
+    "remote.SSH.remotePlatform": {
+        "141.223.2.23": "linux",
+        "team11": "linux"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "python.defaultInterpreterPath": "D:\\anaconda3\\envs\\py_37\\python.exe",
+    "python.pythonPath": "C:\\Users\\Eunguk_Cho\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.8",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "cSpell.userWords": [
+        "helloworld"
+    ],
+    "workbench.colorTheme": "PureBasic Dark+",
+    "explorer.confirmDelete": false,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "remote.SSH.configFile": "C:\\Users\\Eunguk_Cho\\.ssh\\config",
+    "git.autofetch": true
+}

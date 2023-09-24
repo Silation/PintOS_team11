@@ -12,3 +12,5 @@
 2023-09-24 18:30:00.126 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2023-09-24 18:30:00.127 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2023-09-24 18:30:00.952 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2023-09-24 18:30:11.325 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-09-24 18:33:01.162 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

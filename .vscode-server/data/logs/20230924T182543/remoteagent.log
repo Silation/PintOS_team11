@@ -51,3 +51,4 @@
     at process.emit (node:events:513:28)
     at emit (node:internal/child_process:937:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-24 18:31:33.165 [info] New EH opened, aborting shutdown
