@@ -93,9 +93,14 @@ struct thread
     /* Shared between thread.c and synch.c. */
     struct list_elem elem;              /* List element. */
 
+
 #ifdef USERPROG
     /* Owned by userprog/process.c. */
     uint32_t *pagedir;                  /* Page directory. */
+
+     /*customized for project2*/
+    int exit_code;
+    struct file *file_descriptor[128];
 #endif
 
     /* Owned by thread.c. */
