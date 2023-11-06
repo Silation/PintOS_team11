@@ -1,0 +1,70 @@
+2023-09-24 18:26:39.736 [info] Log level: Info
+2023-09-24 18:26:39.737 [info] Validating found git in: "git"
+2023-09-24 18:26:39.737 [info] Using git "2.42.0" from "git"
+2023-09-24 18:26:39.737 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-24 18:26:39.737 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-24 18:26:39.737 [info] > git rev-parse --show-toplevel [5ms]
+2023-09-24 18:26:39.737 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-24 18:26:39.737 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-24 18:26:39.737 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-24 18:26:39.737 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-24 18:26:39.737 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-09-24 18:26:39.737 [info] Open repository: /home/team11/.oh-my-zsh
+2023-09-24 18:26:39.737 [info] > git config --get commit.template [10ms]
+2023-09-24 18:26:39.737 [info] > git rev-parse --show-toplevel [4ms]
+2023-09-24 18:26:39.737 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-24 18:26:39.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-09-24 18:26:39.738 [info] > git rev-parse --show-toplevel [12ms]
+2023-09-24 18:26:39.738 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-24 18:26:39.746 [info] > git status -z -uall [11ms]
+2023-09-24 18:26:39.764 [info] > git rev-parse --show-toplevel [19ms]
+2023-09-24 18:26:39.764 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-24 18:26:39.773 [info] > git config --get commit.template [9ms]
+2023-09-24 18:26:39.774 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-24 18:26:39.774 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-24 18:26:39.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-24 18:26:39.841 [info] > git status -z -uall [9ms]
+2023-09-24 18:26:40.670 [info] > git check-ignore -v -z --stdin [2ms]
+2023-09-24 18:29:03.080 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-24 18:29:03.088 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-09-24 18:29:03.095 [info] Open repository: /home/team11
+2023-09-24 18:29:03.110 [info] No remotes found in the git config file.
+2023-09-24 18:29:03.111 [info] > git config --get commit.template [9ms]
+2023-09-24 18:29:03.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-24 18:29:03.226 [info] > git status -z -uall [106ms] (cancelled)
+2023-09-24 18:29:03.649 [info] > git check-ignore -v -z --stdin [8ms]
+2023-09-24 18:29:03.650 [info] > git check-ignore -v -z --stdin [3ms]
+2023-09-24 18:29:07.103 [info] > git config --get commit.template [11ms]
+2023-09-24 18:29:07.117 [info] No remotes found in the git config file.
+2023-09-24 18:29:07.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-09-24 18:29:09.274 [info] > git status -z -uall [2140ms] (cancelled)
+2023-09-24 18:29:45.939 [info] > git log --oneline --cherry master...master@{upstream} -- [2ms]
+2023-09-24 18:29:46.605 [info] > git pull --tags origin master [655ms]
+2023-09-24 18:29:46.605 [info] From https://github.com/ohmyzsh/ohmyzsh
+ * branch            master     -> FETCH_HEAD
+2023-09-24 18:29:46.627 [info] > git config --get commit.template [11ms]
+2023-09-24 18:29:46.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-24 18:29:46.647 [info] > git status -z -uall [9ms]
+2023-09-24 18:29:47.810 [info] > git config --get commit.template [11ms]
+2023-09-24 18:29:47.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-24 18:29:47.829 [info] > git status -z -uall [9ms]
+2023-09-24 18:30:00.604 [info] > git fetch [6ms]
+2023-09-24 18:30:00.628 [info] No remotes found in the git config file.
+2023-09-24 18:30:00.629 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-09-24 18:30:00.630 [info] > git config --get commit.template [13ms]
+2023-09-24 18:30:02.743 [info] > git status -z -uall [2103ms] (cancelled)
+2023-09-24 18:30:02.743 [info] > git fetch [2156ms]
+2023-09-24 18:30:02.776 [info] > git config --get commit.template [2ms]
+2023-09-24 18:30:02.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2023-09-24 18:30:02.832 [info] > git status -z -uall [11ms]
+2023-09-24 18:30:03.870 [info] > git config --get commit.template [16ms]
+2023-09-24 18:30:03.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-24 18:30:03.895 [info] > git status -z -uall [9ms]
+2023-09-24 18:30:04.448 [info] > git check-ignore -v -z --stdin [1ms]

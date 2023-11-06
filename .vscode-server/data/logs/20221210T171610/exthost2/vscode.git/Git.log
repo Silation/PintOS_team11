@@ -1,0 +1,122 @@
+2022-12-10 18:13:23.397 [info] 로그 수준: Info
+2022-12-10 18:13:23.397 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2022-12-10 18:13:23.397 [info] "2.7.4"에서 git "git"을(를) 사용하는 중
+2022-12-10 18:13:23.397 [info] > git rev-parse --show-toplevel [5ms]
+2022-12-10 18:13:23.397 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.397 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-10 18:13:23.398 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2022-12-10 18:13:23.398 [info] Open repository: /home/team11/pintos
+2022-12-10 18:13:23.398 [info] > git config --get commit.template [4ms]
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [8ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [1ms]
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [14ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.398 [info] > git status -z -uall [9ms]
+2022-12-10 18:13:23.398 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [19ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.398 [info] > git config --get commit.template [5ms]
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [2ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [5ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [7ms]
+2022-12-10 18:13:23.398 [info] > git status -z -uall [11ms]
+2022-12-10 18:13:23.398 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [0ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [0ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.398 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-10 18:13:23.398 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-12-10 18:13:23.432 [info] > git check-ignore -v -z --stdin [3ms]
+2022-12-10 18:13:23.505 [info] > git show --textconv :src/userprog/syscall.c [6ms]
+2022-12-10 18:13:23.506 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/syscall.c [2ms]
+2022-12-10 18:13:23.512 [info] > git cat-file -s 124c9506cf5379851ee22c312f4cf8fadd7b6a41 [1ms]
+2022-12-10 18:13:30.901 [info] > git show --textconv :src/tests/vm/mmap-zero.c [7ms]
+2022-12-10 18:13:30.902 [info] > git ls-files --stage -- /home/team11/pintos/src/tests/vm/mmap-zero.c [2ms]
+2022-12-10 18:13:30.907 [info] > git cat-file -s 368b759d48e0d989253a145de2c55c3f7b6ad066 [1ms]
+2022-12-10 18:13:31.370 [info] > git check-ignore -v -z --stdin [4ms]
+2022-12-10 18:13:32.050 [info] > git show --textconv :src/tests/vm/mmap-unmap.c [7ms]
+2022-12-10 18:13:32.051 [info] > git ls-files --stage -- /home/team11/pintos/src/tests/vm/mmap-unmap.c [2ms]
+2022-12-10 18:13:32.056 [info] > git cat-file -s d35a79efc128c1a5be38cc13f0def7f0f953669e [1ms]
+2022-12-10 18:13:33.271 [info] > git show --textconv :src/tests/vm/mmap-unmap.ck [8ms]
+2022-12-10 18:13:33.273 [info] > git ls-files --stage -- /home/team11/pintos/src/tests/vm/mmap-unmap.ck [2ms]
+2022-12-10 18:13:33.278 [info] > git cat-file -s 119658c68108451aa1964298cd8e8f513b275bc8 [1ms]
+2022-12-10 18:13:38.888 [info] > git show --textconv :src/userprog/process.h [6ms]
+2022-12-10 18:13:38.889 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/process.h [2ms]
+2022-12-10 18:13:38.895 [info] > git cat-file -s 70d51d9ada88d72e886bb7c9147b62368198ab1a [2ms]
+2022-12-10 18:13:39.058 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-10 18:13:41.902 [info] > git show --textconv :src/userprog/process.c [7ms]
+2022-12-10 18:13:41.903 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/process.c [2ms]
+2022-12-10 18:13:41.908 [info] > git cat-file -s 6a160c04677e7ce8c5d7244f7f59c2390392239d [2ms]
+2022-12-10 18:14:19.114 [info] > git show --textconv :src/lib/user/syscall.c [6ms]
+2022-12-10 18:14:19.116 [info] > git ls-files --stage -- /home/team11/pintos/src/lib/user/syscall.c [2ms]
+2022-12-10 18:14:19.120 [info] > git cat-file -s c8385bc3364b1eabc57e68bae885fe458537b42a [1ms]
+2022-12-10 18:14:19.601 [info] > git check-ignore -v -z --stdin [4ms]
+2022-12-10 18:14:30.408 [info] > git check-ignore -v -z --stdin [3ms]
+2022-12-10 18:14:39.581 [info] > git config --get commit.template [5ms]
+2022-12-10 18:14:39.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-10 18:14:39.593 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-10 18:14:39.594 [info] > git status -z -uall [7ms]
+2022-12-10 18:14:44.613 [info] > git config --get commit.template [6ms]
+2022-12-10 18:14:44.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-10 18:14:44.624 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-10 18:14:44.626 [info] > git status -z -uall [8ms]
+2022-12-10 18:15:13.049 [info] > git config --get commit.template [7ms]
+2022-12-10 18:15:13.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [3ms]
+2022-12-10 18:15:13.061 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-10 18:15:13.064 [info] > git status -z -uall [9ms]
+2022-12-10 18:15:49.687 [info] > git check-ignore -v -z --stdin [3ms]
+2022-12-10 18:16:42.200 [info] > git config --get commit.template [4ms]
+2022-12-10 18:16:42.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [1ms]
+2022-12-10 18:16:42.210 [info] > git status -z -uall [5ms]
+2022-12-10 18:16:42.211 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-10 18:18:45.726 [info] > git show --textconv :src/userprog/exception.c [3ms]
+2022-12-10 18:18:45.727 [info] > git ls-files --stage -- /home/team11/pintos/src/userprog/exception.c [1ms]
+2022-12-10 18:18:45.731 [info] > git cat-file -s d4849517cfff866b61c7c5886d337b04bc19d585 [1ms]
+2022-12-10 18:21:43.157 [info] > git config --get commit.template [6ms]
+2022-12-10 18:21:43.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [3ms]
+2022-12-10 18:21:43.168 [info] > git status -z -uall [5ms]
+2022-12-10 18:21:43.169 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2022-12-10 18:21:56.725 [info] > git config --get commit.template [5ms]
+2022-12-10 18:21:56.727 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-10 18:21:56.739 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-10 18:21:56.739 [info] > git status -z -uall [7ms]
+2022-12-10 18:32:33.268 [info] > git config --get commit.template [5ms]
+2022-12-10 18:32:33.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-10 18:32:33.278 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-10 18:32:33.280 [info] > git status -z -uall [6ms]
+2022-12-10 20:00:10.567 [info] > git config --get commit.template [6ms]
+2022-12-10 20:00:10.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [3ms]
+2022-12-10 20:00:10.579 [info] > git status -z -uall [7ms]
+2022-12-10 20:00:10.581 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2022-12-10 20:00:19.186 [info] > git config --get commit.template [5ms]
+2022-12-10 20:00:19.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-10 20:00:19.195 [info] > git status -z -uall [5ms]
+2022-12-10 20:00:19.196 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-10 20:01:58.867 [info] > git config --get commit.template [6ms]
+2022-12-10 20:01:58.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-10 20:01:58.877 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-10 20:01:58.878 [info] > git status -z -uall [5ms]
+2022-12-10 20:07:12.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-10 20:07:12.497 [info] > git config --get commit.template [7ms]
+2022-12-10 20:07:12.508 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2022-12-10 20:07:12.509 [info] > git status -z -uall [7ms]
+2022-12-10 20:17:48.731 [info] > git config --get commit.template [5ms]
+2022-12-10 20:17:48.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/submit_project3 refs/remotes/submit_project3 [2ms]
+2022-12-10 20:17:48.742 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-10 20:17:48.743 [info] > git status -z -uall [6ms]

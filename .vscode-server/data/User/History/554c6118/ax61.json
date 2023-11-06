@@ -1,0 +1,52 @@
+{
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Dracula Soft",
+  "python.pythonPath": "C:\\Users\\bhyu4\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.tabCompletion": "on",
+  "sync.gist": "80ce6c76298c124e17aac3c81465c4d0",
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 16,
+  "window.openFilesInNewWindow": false,
+  "window.restoreFullscreen": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "code-runner.runInTerminal": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace",
+  "editor.fontWeight": null,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "python.defaultInterpreterPath": "C:\\Users\\bhyu4\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "prettier.tabWidth": 4,
+  "bracketPairColorizer.depreciation-notice": false,
+  "remote.SSH.remotePlatform": {
+    "localhost": "linux",
+    "cs144": "linux",
+    "141.223.181.67": "linux",
+    "######": "linux",
+    "141.223.163.1": "linux",
+    "cluster1": "linux",
+    "c1-3": "linux",
+    "proxy2": "linux",
+    "OS": "linux",
+    "team12": "linux"
+  },
+  "workbench.startupEditor": "none",
+  "editor.largeFileOptimizations": false,
+  "git.terminalAuthentication": false,
+  "github.gitAuthentication": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+}

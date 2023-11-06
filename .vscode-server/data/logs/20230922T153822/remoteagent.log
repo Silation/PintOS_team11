@@ -1,0 +1,99 @@
+2023-09-22 15:38:22.862 [info] 
+
+
+
+
+2023-09-22 15:38:22.878 [info] Extension host agent started.
+2023-09-22 15:38:22.978 [info] Migrating extensions from old default profile location file:///home/team11/.vscode-server/data/User/extensions.json
+2023-09-22 15:38:22.992 [info] [127.0.0.1][ddd549d7][ManagementConnection] New connection established.
+2023-09-22 15:38:23.037 [info] [127.0.0.1][3d148b12][ExtensionHostConnection] New connection established.
+2023-09-22 15:38:23.151 [info] Migrated extensions from old default profile location to new location file:///home/team11/.vscode-server/data/User/extensions.json file:///home/team11/.vscode-server/extensions/extensions.json
+2023-09-22 15:38:23.829 [info] [127.0.0.1][3d148b12][ExtensionHostConnection] <32238> Launched Extension Host Process.
+2023-09-22 15:38:36.079 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ko
+2023-09-22 15:38:36.680 [info] Installing extension: ms-ceintl.vscode-language-pack-ko
+2023-09-22 15:38:38.833 [warning] Extension signature verification failed with error 'ENOENT': ms-ceintl.vscode-language-pack-ko
+2023-09-22 15:38:38.947 [info] Extracted extension to file:///home/team11/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.82.2023091309: ms-ceintl.vscode-language-pack-ko
+2023-09-22 15:38:38.999 [info] Renamed to /home/team11/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.82.2023091309
+2023-09-22 15:38:39.000 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ko
+2023-09-22 15:38:39.055 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ko
+2023-09-22 15:38:39.084 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ko-1.74.12140931
+2023-09-22 15:38:39.246 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ko
+2023-09-22 15:38:54.296 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-22 15:38:54.296 [info] Cancelling previous shutdown timeout
+2023-09-22 15:38:54.584 [info] [127.0.0.1][4db55496][ManagementConnection] New connection established.
+2023-09-22 15:38:54.650 [info] [127.0.0.1][a50e29b7][ExtensionHostConnection] New connection established.
+2023-09-22 15:38:54.658 [info] [127.0.0.1][a50e29b7][ExtensionHostConnection] <32425> Launched Extension Host Process.
+2023-09-22 15:39:27.517 [info] [127.0.0.1][4db55496][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-22 15:39:27.519 [error] Error: Throttler is disposed
+    at c.queue (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-22 15:39:29.493 [info] [127.0.0.1][ddd549d7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-22 15:39:29.493 [error] Error: Throttler is disposed
+    at c.queue (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-22 15:39:32.538 [info] [127.0.0.1][a50e29b7][ExtensionHostConnection] <32425> Extension Host Process exited with code: 0, signal: null.
+2023-09-22 15:39:32.538 [info] Cancelling previous shutdown timeout
+2023-09-22 15:39:34.519 [info] [127.0.0.1][3d148b12][ExtensionHostConnection] <32238> Extension Host Process exited with code: 0, signal: null.
+2023-09-22 15:39:34.519 [info] Last EH closed, waiting before shutting down
+2023-09-22 15:39:54.090 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-22 15:39:54.090 [info] Cancelling previous shutdown timeout
+2023-09-22 15:39:54.294 [info] [127.0.0.1][b40b006e][ManagementConnection] New connection established.
+2023-09-22 15:39:54.310 [info] [127.0.0.1][3a999a29][ExtensionHostConnection] New connection established.
+2023-09-22 15:39:54.321 [info] [127.0.0.1][3a999a29][ExtensionHostConnection] <848> Launched Extension Host Process.
+2023-09-22 15:39:58.453 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateTitle (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27490)
+    at T.<computed> (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-22 15:40:28.526 [info] [127.0.0.1][b40b006e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-22 15:40:28.527 [error] Error: Throttler is disposed
+    at c.queue (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-22 15:40:33.547 [info] [127.0.0.1][3a999a29][ExtensionHostConnection] <848> Extension Host Process exited with code: 0, signal: null.
+2023-09-22 15:40:33.547 [info] Cancelling previous shutdown timeout
+2023-09-22 15:40:33.547 [info] Last EH closed, waiting before shutting down
+2023-09-22 15:40:40.998 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-22 15:40:40.999 [info] Cancelling previous shutdown timeout
+2023-09-22 15:40:41.182 [info] [127.0.0.1][7381b6ab][ManagementConnection] New connection established.
+2023-09-22 15:40:41.226 [info] [127.0.0.1][98e5a169][ExtensionHostConnection] New connection established.
+2023-09-22 15:40:41.237 [info] [127.0.0.1][98e5a169][ExtensionHostConnection] <992> Launched Extension Host Process.
+2023-09-22 15:40:43.935 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateTitle (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27490)
+    at T.<computed> (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/team11/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-22 15:45:41.000 [info] New EH opened, aborting shutdown
+2023-09-22 16:11:03.384 [info] [127.0.0.1][98e5a169][ExtensionHostConnection] The client has reconnected.
+2023-09-22 19:12:39.970 [info] [127.0.0.1][98e5a169][ExtensionHostConnection] <992> Extension Host Process exited with code: 0, signal: null.
+2023-09-22 19:12:39.971 [info] Last EH closed, waiting before shutting down
+2023-09-22 19:17:39.972 [info] Last EH closed, shutting down

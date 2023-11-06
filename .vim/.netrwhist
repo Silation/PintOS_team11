@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/team11/pintos'
+let g:netrw_dirhist_2='/home/team11/forscp'
+let g:netrw_dirhist_3='/home/team11/pintos/src/vm'

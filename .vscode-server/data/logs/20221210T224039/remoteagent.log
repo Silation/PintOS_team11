@@ -1,0 +1,299 @@
+2022-12-10 22:40:39.451 [info] Extension host agent started.
+2022-12-10 22:40:39.556 [info] [127.0.0.1][712b2f6b][ManagementConnection] New connection established.
+2022-12-10 22:40:39.569 [info] [127.0.0.1][9f155727][ExtensionHostConnection] New connection established.
+2022-12-10 22:40:39.576 [info] [127.0.0.1][9f155727][ExtensionHostConnection] <30195> Launched Extension Host Process.
+2022-12-10 22:40:43.041 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateIcon (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2715)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 22:40:43.042 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:15:53.042 [info] [127.0.0.1][712b2f6b][ManagementConnection] The client has reconnected.
+2022-12-10 23:15:54.065 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateIcon (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2715)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:15:54.066 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:15:54.066 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:15:55.315 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:16:10.057 [info] [127.0.0.1][9f155727][ExtensionHostConnection] The client has reconnected.
+2022-12-10 23:26:12.648 [info] [127.0.0.1][712b2f6b][ManagementConnection] The client has reconnected.
+2022-12-10 23:26:13.669 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateIcon (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2715)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:26:13.669 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:26:13.670 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:26:14.915 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-10 23:26:36.015 [info] [127.0.0.1][9f155727][ExtensionHostConnection] The client has reconnected.
+2022-12-11 06:10:38.446 [info] [127.0.0.1][712b2f6b][ManagementConnection] The client has reconnected.
+2022-12-11 06:10:39.484 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateIcon (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2715)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-11 06:10:39.485 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-11 06:10:39.486 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-11 06:10:40.721 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-11 06:10:52.759 [info] [127.0.0.1][9f155727][ExtensionHostConnection] The client has reconnected.
+2022-12-11 07:52:14.343 [info] [127.0.0.1][712b2f6b][ManagementConnection] The client has reconnected.
+2022-12-11 07:52:14.504 [info] [127.0.0.1][9f155727][ExtensionHostConnection] The client has reconnected.
+2022-12-11 07:52:15.388 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateIcon (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2715)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-11 07:52:15.389 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-11 07:52:15.389 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/team11/.vscode-server/bin/5235c6bb189b60b01b1f49062f4ffa42384f8c91/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-11 10:25:41.648 [info] [127.0.0.1][1e3f63f4][ManagementConnection] New connection established.
+2022-12-11 10:25:41.656 [info] [127.0.0.1][398700f2][ExtensionHostConnection] New connection established.
+2022-12-11 10:25:41.666 [info] [127.0.0.1][398700f2][ExtensionHostConnection] <30557> Launched Extension Host Process.
+2022-12-11 10:25:42.846 [warning] RequestStore#acceptReply was called without receiving a matching request 81
+2022-12-11 10:25:42.846 [warning] RequestStore#acceptReply was called without receiving a matching request 82
+2022-12-11 10:25:42.847 [warning] RequestStore#acceptReply was called without receiving a matching request 83
+2022-12-11 10:25:42.847 [warning] RequestStore#acceptReply was called without receiving a matching request 84
+2022-12-11 10:25:42.848 [warning] RequestStore#acceptReply was called without receiving a matching request 85
+2022-12-11 10:25:42.848 [warning] RequestStore#acceptReply was called without receiving a matching request 86
+2022-12-11 10:25:42.848 [warning] RequestStore#acceptReply was called without receiving a matching request 87
+2022-12-11 10:25:42.849 [warning] RequestStore#acceptReply was called without receiving a matching request 88
+2022-12-11 10:25:42.850 [warning] RequestStore#acceptReply was called without receiving a matching request 89
+2022-12-11 10:25:42.850 [warning] RequestStore#acceptReply was called without receiving a matching request 90
+2022-12-11 10:25:42.850 [warning] RequestStore#acceptReply was called without receiving a matching request 91
+2022-12-11 10:25:42.851 [warning] RequestStore#acceptReply was called without receiving a matching request 92
+2022-12-11 10:25:42.851 [warning] RequestStore#acceptReply was called without receiving a matching request 93
+2022-12-11 10:25:42.851 [warning] RequestStore#acceptReply was called without receiving a matching request 94
+2022-12-11 10:25:42.851 [warning] RequestStore#acceptReply was called without receiving a matching request 95
+2022-12-11 10:25:42.851 [warning] RequestStore#acceptReply was called without receiving a matching request 96
+2022-12-11 10:25:42.852 [warning] RequestStore#acceptReply was called without receiving a matching request 97
+2022-12-11 10:25:42.852 [warning] RequestStore#acceptReply was called without receiving a matching request 98
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 99
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 100
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 101
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 102
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 103
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 104
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 105
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 106
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 107
+2022-12-11 10:25:42.853 [warning] RequestStore#acceptReply was called without receiving a matching request 108
+2022-12-11 10:25:42.854 [warning] RequestStore#acceptReply was called without receiving a matching request 109
+2022-12-11 10:25:42.854 [warning] RequestStore#acceptReply was called without receiving a matching request 110
+2022-12-11 10:25:42.854 [warning] RequestStore#acceptReply was called without receiving a matching request 111
+2022-12-11 10:25:42.854 [warning] RequestStore#acceptReply was called without receiving a matching request 112
+2022-12-11 10:25:43.717 [warning] RequestStore#acceptReply was called without receiving a matching request 113
+2022-12-11 10:25:43.730 [warning] RequestStore#acceptReply was called without receiving a matching request 114
+2022-12-11 10:25:43.781 [warning] RequestStore#acceptReply was called without receiving a matching request 115
+2022-12-11 10:25:43.781 [warning] RequestStore#acceptReply was called without receiving a matching request 116
+2022-12-11 10:25:43.783 [warning] RequestStore#acceptReply was called without receiving a matching request 117
+2022-12-11 10:25:44.043 [warning] RequestStore#acceptReply was called without receiving a matching request 118
+2022-12-11 10:25:44.207 [warning] RequestStore#acceptReply was called without receiving a matching request 119
+2022-12-11 10:25:44.219 [warning] RequestStore#acceptReply was called without receiving a matching request 120
+2022-12-11 12:01:28.458 [info] [127.0.0.1][712b2f6b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-11 12:01:28.488 [info] [127.0.0.1][9f155727][ExtensionHostConnection] <30195> Extension Host Process exited with code: 0, signal: null.
+2022-12-11 12:02:26.729 [info] [127.0.0.1][1e3f63f4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-11 12:02:26.779 [info] [127.0.0.1][398700f2][ExtensionHostConnection] <30557> Extension Host Process exited with code: 0, signal: null.
+2022-12-11 12:02:26.779 [info] Last EH closed, waiting before shutting down
+2022-12-11 12:07:26.779 [info] Last EH closed, shutting down

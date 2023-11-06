@@ -1,0 +1,29 @@
+2022-12-13 17:02:48.784 [info] Extension host with pid 3337 started
+2022-12-13 17:02:48.934 [info] Lock '/home/team11/.vscode-server/data/User/workspaceStorage/3fb11df384854de2cfaff76b760a73f8/vscode.lock': Lock acquired.
+2022-12-13 17:02:50.031 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-13 17:02:50.659 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-13 17:02:50.660 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-13 17:02:51.315 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-13 17:02:51.316 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-13 17:02:51.316 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-13 17:02:51.316 [info] Eager extensions activated
+2022-12-13 17:02:52.257 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-13 17:02:52.258 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-13 17:02:52.258 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-13 17:02:52.874 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2022-12-13 17:02:52.874 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2022-12-13 17:02:53.029 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2022-12-13 17:02:53.172 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2022-12-13 17:02:53.173 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2022-12-13 17:02:53.173 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-13 17:02:53.180 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-13 17:02:53.180 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-13 17:02:53.181 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-13 17:02:59.050 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-13 17:02:59.220 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-13 17:02:59.222 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-13 17:02:59.222 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-13 17:02:59.222 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-13 17:39:59.390 [info] Extension host terminating: received terminate message from renderer
+2022-12-13 17:39:59.391 [info] Lock '/home/team11/.vscode-server/data/User/workspaceStorage/3fb11df384854de2cfaff76b760a73f8/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-13 17:39:59.416 [info] Extension host with pid 3337 exiting with code 0
